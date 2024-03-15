@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#0d0d0d, #970697,  blue, black);
+    font-family:  'PT Sans', sans-serif;
+}
+img{ border-radius: 10px;}
+/*----ENCABEZADO----*/
+header{
+    width: 100%;
+
+}
+.nav{
+    width: 100%;
+    background: #11111117;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+.menu li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background: rgb(76, 74, 74);
+    color: rgb(170, 0, 218);
+    border-radius: 15px;
+}
+img{left: 3px;}
+
+/*----TABLA----*/
+.tabla{
+    margin: auto;
+}
+table{
+    background: rgba(128, 128, 128, 0.371);
+    border-radius: 10px;
+    border-spacing: 0;
+}
+th,td{
+    padding: 10px;
+    border-top: 20px solid rgba(128, 128, 128, 0);
+    border-spacing: 0;
+    caption-side: bottom;
+}
+th{
+    color:rgb(178, 178, 178);
+    font-size: 25px;
+}
+td{
+    color:black;
+    font-size: 18px;
+}
+
+
+/* Imágenes  de los juegos */
+.Mine:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.Mine{
+    overflow: hidden;
+}
+#LOL:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.MB:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+.COD:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #1eec63;
+    -webkit-box-shadow: 0px 0px 15px 15px #36ec1e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+td img{
+    transition: all 0.5s ease;
+}
+
+/*----PIE DE PÁGINA----*/
+footer{
+    background-color:#020f4924;
+    padding-top: 30px;
+}
+.logoFooter{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.logoFooter img{
+    width: 150px;
+}
+.contenedorFooter{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    color:white;
+}
+.col1{
+    width: 500px;
+}
+.col1 h1{
+    margin-bottom: 15px;
+}
+.col1 p{
+    margin-bottom: 10px;
+}
+.col2{
+    width: 450px;
+}
+.col2 img{
+    width: 40px;
+    margin: 5px;
+}
+.col2 .x{
+    display: flex;
+    align-items: center;
+}
+.col2 .ig{
+    display: flex;
+    align-items: center;
+}
+.col2 .fb{    
+    display: flex;
+    align-items: center;
+}
+.col2 h1{
+    margin-bottom: 15px;
+}
+.col3{
+    width: 250px;
+}
+.col3 h1{
+    margin-bottom: 15px;
+}
+.final{
+    margin: auto;
+    width: 1200px;
+    height: 80px;
+    color:gainsboro;
+}
+.copy{
+    width: 600px;
+    float: left;
+    margin-top: 50px;
+    text-align: left;
+}
+.politica{
+    width: 600px;
+    float: right;
+    margin-top: 50px;
+    text-align: right;
+}

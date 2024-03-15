@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  'PT Sans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/fondoj.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+.nav{
+    width: 100%;
+    background: #23a0a4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+.logo{
+    width: 250px;
+    height: 50px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+.menu li a{
+    color:beige;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background: #88c4c6;
+    color: #5a6e74;
+    border-radius: 15px;
+}
+
+/*--Contenido Principal--*/
+
+main{
+    background-color: #23a0a4;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Formulario*/
+.row{
+    background-color: #fc5f5f;
+    border: 1px solid #ff5073;
+    height: 20%;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: antiquewhite;
+}
+
+/*Texto*/
+.contenedor{
+    width: 75%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    position: absolute;
+    left: 10%;
+    right: 8%;
+    top: 8%;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    color:whitesmoke;
+}
+h2{
+    text-align: center;
+}
+
+/*Imagen de fondo*/
+.imagen{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: 0;
+    left: 100px;
+}
+
+/*Footer*/
+footer{
+    background-color: #23a0a4;
+}
+.logoFooter{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.logoFooter img{
+    width: 150px;
+}
+.contenedorFooter{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    color:beige;
+}
+.col1{
+    width: 500px;
+}
+.col1 h1{
+    margin-bottom: 15px;
+}
+.col1 p{
+    margin-bottom: 10px;
+}
+.col2{
+    width: 450px;
+}
+.col2 img{
+    width: 40px;
+    margin: 5px;
+}
+.col2 .x{
+    display: flex;
+    align-items: center;
+}
+.col2 .ig{
+    display: flex;
+    align-items: center;
+}
+.col2 .fb{    
+    display: flex;
+    align-items: center;
+}
+.col2 h1{
+    margin-bottom: 15px;
+}
+.col3{
+    width: 250px;
+}
+.col3 h1{
+    margin-bottom: 15px;
+}
+.final{
+    margin: auto;
+    width: 1200px;
+    height: 80px;
+    color:grey;
+}
+.copy{
+    width: 600px;
+    float: left;
+    margin-top: 50px;
+    text-align: left;
+}
+.politica{
+    width: 600px;
+    float: right;
+    margin-top: 50px;
+    text-align: right;
+}

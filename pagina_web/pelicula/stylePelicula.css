@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#360176;
+    font-family:  'PT Sans', sans-serif;
+}
+
+/*----ENCABEZADO----*/
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/fondo_la-la-land.jpeg);
+    background-size:cover;
+    background-position: center top;
+}
+.nav{
+    width: 100%;
+    background: rgba(36, 4, 62, 0.351);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+.menu li a{
+    color:#1c0c58;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background: #846a9c;
+    color: #eb6ec8;
+    border-radius: 15px;
+}
+
+/*----TABLA----*/
+.tabla{
+    margin: auto;
+}
+table{
+    background-color: #0e0e166f;
+    border-radius: 10px;
+    border-spacing: 0;
+    padding: 30px;
+}
+th,td{
+    border-spacing: 0;
+    caption-side: bottom;
+}
+th{
+    color: #8d93d1;
+    font-size: 25px;
+}
+td{
+    color:beige;
+    padding: 10px;
+}
+.fila1{
+    background-color: #ba9ff124;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.fila2{
+    background-color: #ecabd406;
+}
+#Tolkin{ font-family: 'Times New Roman', Times, serif; color: #ee6fc8d3;}
+#Tolkin:hover{}
+#Ryan{ font-family: 'Times New Roman', Times, serif; color: #ee6fc8d3;}
+#Ryan:hover{}
+#Cloud{ font-family: 'Times New Roman', Times, serif; color: #ee6fc8d3;}
+#Cloud:hover{}
+#Mark{ font-family: 'Times New Roman', Times, serif; color: #ee6fc8d3;}
+#Mark:hover{}
+
+
+/*----PIE DE PÁGINA----*/
+footer{
+    padding-top: 40px;
+    background-color: #360176;
+}
+.logoFooter{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.logoFooter img{
+    width: 150px;
+}
+.contenedorFooter{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    color:#E2BFB3;
+}
+.col1{
+    width: 500px;
+}
+.col1 h1{
+    margin-bottom: 15px;
+}
+.col1 p{
+    margin-bottom: 10px;
+}
+.col2{
+    width: 450px;
+}
+.col2 img{
+    width: 40px;
+    margin: 5px;
+}
+.col2 .x{
+    display: flex;
+    align-items: center;
+}
+.col2 .ig{
+    display: flex;
+    align-items: center;
+}
+.col2 .fb{    
+    display: flex;
+    align-items: center;
+}
+.col2 h1{
+    margin-bottom: 15px;
+}
+.col3{
+    width: 250px;
+}
+.col3 h1{
+    margin-bottom: 15px;
+}
+.final{
+    margin: auto;
+    width: 1200px;
+    height: 80px;
+    color:burlywood;
+}
+.copy{
+    width: 600px;
+    float: left;
+    margin-top: 50px;
+    text-align: left;
+}
+.politica{
+    width: 600px;
+    float: right;
+    margin-top: 50px;
+    text-align: right;
+}

@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family:  'PT Sans', sans-serif;
+}
+
+/*----ENCABEZADO----*/
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/House\ of\ the\ dragon.jpeg);
+    background-size:cover;
+    background-position: center top;
+}
+.nav{
+    width: 100%;
+    background: rgba(244, 244, 244, 0.082);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+.menu li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background: #FAF6F0;
+    color: black;
+    border-radius: 15px;
+}
+
+/*----TABLA----*/
+.tabla{
+    margin: auto;
+}
+table{
+    background-color: #faf6f020;
+    border-spacing: 0;
+}
+th,td{
+    padding: 10px;
+    border-top: 15px solid rgb(0, 0, 0);
+    border-spacing: 0;
+    caption-side: bottom;
+}
+th{
+    color:#e6c687;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+td{
+    color:rgb(46, 45, 45);
+    color: rgb(222, 222, 210);
+}
+.fila1{
+    background-color: #b20202dd;
+}
+
+/* Imágenes  de las series */
+.BBT:hover{
+    filter: blur(4px);
+}
+.Brid:hover{
+    filter: grayscale(100%);
+}
+.OP:hover{
+    filter: saturate(180);
+}
+.HOD:hover{
+    filter: opacity(0.5);
+}
+
+/*----PIE DE PÁGINA----*/
+footer{
+    background-color: black;
+}
+.logoFooter{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.logoFooter img{
+    width: 150px;
+}
+.contenedorFooter{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    color:white;
+}
+.col1{
+    width: 500px;
+}
+.col1 h1{
+    margin-bottom: 15px;
+}
+.col1 p{
+    margin-bottom: 10px;
+}
+.col2{
+    width: 450px;
+}
+.col2 img{
+    width: 40px;
+    margin: 5px;
+}
+.col2 .x{
+    display: flex;
+    align-items: center;
+}
+.col2 .ig{
+    display: flex;
+    align-items: center;
+}
+.col2 .fb{    
+    display: flex;
+    align-items: center;
+}
+.col2 h1{
+    margin-bottom: 15px;
+}
+.col3{
+    width: 250px;
+}
+.col3 h1{
+    margin-bottom: 15px;
+}
+.final{
+    margin: auto;
+    width: 1200px;
+    height: 80px;
+    color:grey;
+}
+.copy{
+    width: 600px;
+    float: left;
+    margin-top: 50px;
+    text-align: left;
+}
+.politica{
+    width: 600px;
+    float: right;
+    margin-top: 50px;
+    text-align: right;
+}

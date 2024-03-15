@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11.5px;
+}
+
+/* Contenedor principal */
+h1{
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: #F1FADA;
+}
+h2{
+    color: #265073;
+}
+h3, h4{
+    color: black;
+}
+.box1{
+    background-color: #9AD0C2;
+    width: 620px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 90px;
+}
+.Presentation{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.photo{
+    margin-top: 10px;
+    margin-right: 60px;
+    float: right;
+}
+
+/* Contenedor Secundario */
+.box2{
+    background-color: #9AD0C2;
+    width: 620px;
+    height: auto;
+    display: flex;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+/*Experience*/
+.Experience{
+    width: 50%;
+    height: 50%;
+    margin-left: 10px;
+    float: left;
+}
+.Job1{
+    width: 100%;
+    height: 50%;
+}
+.Job2{
+    width: 100%;
+    height: 50%;
+}
+/*Education*/
+.Education{
+    width: 50%;
+    height: 15%;
+    margin-left: 30px;
+    float: left;
+}
+.Center1{
+    width: 100%;
+    height: 50%;
+
+}
+.Center2{
+    width: 100%;
+    height: 50%;
+
+}
+/*Skills*/
+.Skills{
+    width: 100%;
+    height: 25%;
+}
+ul{
+    margin-left: 20px;
+}
+/*Language*/
+.Language{
+    width: 100%;
+    height: 50%;
+}
